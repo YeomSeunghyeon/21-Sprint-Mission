@@ -1,0 +1,158 @@
+/* header   */
+header{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  background-color: #ffffff;    
+
+}
+.headerImg{
+    width:153px ;
+    height: 51px;
+    cursor: pointer;
+
+}
+.headerLogin{
+    display: flex;
+    border: 1px solid #3692FF;
+    border-radius: 10px;
+    width: 128px;
+    height: 40px;
+    background-color: #3692FF;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*    content1     */
+.content1{
+    height: 540px;
+    background-color: #CFE5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+.content1Text{
+  
+}
+.content1Button{
+    display: flex;  
+     border: 1px solid #3692FF;
+    border-radius: 50px;
+    background-color: #3692FF;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 250px;
+    height: 30px;
+     justify-content: center;
+    align-items: center;  
+  
+}
+.content1Image{
+    width: 746px;
+    height: 340px;
+}
+/*    content2      */
+
+.content2{
+    display: flex;
+    justify-content: center;
+    padding-top: 138px;
+   align-items: center;
+    
+}
+.content2Img{
+    width: 588px;
+    height:444px;
+}
+.content2Text{
+    padding-left: 50px;
+}
+/*     content3      */
+.content3{
+    display: flex;
+     justify-content: center;
+      padding-top: 138px;
+        align-items: center;
+}
+.content3Img{
+     padding-left: 50px;
+}
+/*     content4      */
+.content4{
+
+    display: flex;
+     justify-content: center;
+      padding-top: 138px;
+      padding-bottom: 138px;
+      align-items: center;
+}
+
+.content4Text{
+     padding-left: 50px;
+    
+}
+
+/*    content5*/
+.content5{
+    display: flex;
+    background-color: #CFE5FF;
+     justify-content: center;
+     height:540px ;
+     
+}
+.content5Img{
+    height:397px ;
+    width: 746px;
+    display: flex;
+    align-self:flex-end;
+}
+.content5Text{
+    display: flex;
+    align-items: center;
+}
+/*  footer   */
+footer {
+  background: #111827;
+  height: 100px;
+ 
+}
+.footer{
+    display: flex;
+    align-items: center
+    ;
+}
+.footer-link{
+    display: flex;
+    gap:24px;
+     margin-left: 250px;
+
+
+}
+.company{
+   margin-left: 250px;
+   color: #9CA3AF;
+;
+}
+.footer-nav{
+    display: flex;
+    gap:24px;
+     margin-left: 250px;
+    
+}
+.footer-nav a{
+     color: #E5E7EB;
+     text-decoration: none;
+}
+/*  span */
+span{
+    color:#3692FF ;
+}
