@@ -1,0 +1,119 @@
+
+body{
+   
+    
+}
+.entireBox{
+  padding-top: 80px;
+  width: 100%;
+   max-width: 400px;   
+  margin: 0 auto;     
+  padding: 0 16px;   
+  box-sizing: border-box;
+
+}
+.imgBox{
+ display: flex;
+    justify-content: center;
+}
+.mainImg{
+    width: 198px;
+    height: 66px;
+   
+}
+.itemText{
+  font-size: 18px;
+  font-weight: 700;
+   margin-top: 16px;
+}
+.itemInput{
+  width: 100%;
+  height: 56px;
+  background-color: #F3F4F6;
+  border-radius: 10px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 30px;
+  box-sizing: border-box; 
+   border: none;  
+    outline: none;
+}
+.signupButton{
+    width: 100%;
+   
+    height: 56px;
+    background-color: #3692FF;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 16px;
+
+}
+.signupLink{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.login-prompt{
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.login-link{
+
+}
+/*   easylogin      */
+.easyLogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #E6F2FF;
+     margin-top: 16px;
+    height: 74px;
+    width: 100%;
+}
+.easyLoginText{
+   font-size: 16px;
+   font-weight: 500;
+   margin-left: 5%;
+}
+.easyLoginIcon{
+  margin-right: 5%;
+  display: flex;
+  gap: 1px;
+}
+.easyLoginGoogle{
+  background-color: #F9FAFB;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0
+}
+.easyLoginKakao{
+background-color: #F5E14B;
+border-radius: 100%;
+width: 42px;
+  height: 42px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0
+}
+.easyLoginGoogleImg{
+    width: 22px;
+    height: 22px;
+}
+.easyLoginKakaoImg{
+    width: 26px;
+    height: 24px;
+}

@@ -4,27 +4,32 @@
   <meta charset="utf-8">
   <title>판다마켓</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/Mobile/style.css"media="(min-width: 375px) and (max-width: 767px)"> 
+<link rel="stylesheet" href="css/Tablet/style.css" media="(min-width: 768px) and (max-width: 1199px)">
+<link rel="stylesheet" href="css/desktop/style.css" media="(min-width: 1200px)">
 </head>
 <body>
     <header>
-      <a href="/"><img class="headerImg" src="img/Property 1=lg.png"></a>
+      <a href="/"><img class="headerImg" src="img/logo.png"></a>
+  
       <a href="login.html" class="headerLogin">로그인</a>
     </header>
-    <div class="content1"> 
-      <div class="content1Text">
-      <h1>일상의 모든 물건을<br>
+    <div class="home_top"> 
+      <div class="home_topText">
+      <h1>일상의 모든 물건을<br class="br1">
         거래해 보세요</h1>
-        <a href="item.html" class="content1Button">구경하러가기</a>
+        <a href="item.html" class="home_topButton">구경하러가기</a>
         </div>
-      <img class="content1Image" src="img/Img_home_top.png">
+      <img class="home_topImage" src="img/home_top.png">
     </div> 
-    <div class="content2">
-      <img class="content2Img" src="img/Img_home_01.jpg">
-      <div class="content2Text">
+    <div class="hot_item">
+      <div class="contentInner">
+      <img class="hot_itemImg" src="img/home_hotItem.jpg">
+      <div class="hot_itemText">
         <span>Hot item</span>
         <h1 class="title-content">
-          인기 상품을<br>
+          인기 상품을<br class="br">
           확인해 보세요
         </h1>
         <p class="description-content">
@@ -32,12 +37,14 @@
           판다 마켓에서 확인해 보세요
         </p>
       </div>
+      </div>
     </div>
-    <div class="content3">
-      <div class="content3Text">
+    <div class="home_search">
+       <div class="contentInner">
+      <div class="home_searchText">
        <span>Search</span>
        <h1 class="title-content">
-        구매를 원하는<br>
+        구매를 원하는<br class="br">
         상품을 검색하세요
        </h1>
        <p class="description-content">
@@ -45,14 +52,16 @@
         쉽게 찾아보세요
        </p>
       </div>
-      <img class="content3Img" src="img/Img_home_02.jpg">
+      <img class="home_searchImg" src="img/home_search.jpg">
     </div>
-    <div class="content4">
-      <img class="content4Img" src="img/Img_home_03.jpg">
-      <div class="content4Text">
+    </div>
+    <div class="home_register">
+      <div class="contentInner">
+      <img class="home_registerImg" src="img/home_register.jpg">
+      <div class="home_registerText">
         <span>Register</span>
         <h1 class="title-content">
-          판매를 원하는<br>
+          판매를 원하는<br class="br">
           상품을 등록하세요
         </h1>
         <p class="description-content">
@@ -60,28 +69,31 @@
           쉽게 등록하세요
         </p>
       </div>
+      </div>
     </div>
-     <div class="content5">
-      <h1 class="content5Text">
+     <div class="home_bottom">
+      <h1 class="home_bottomText">
           믿을 수 있는<br>
           판다마켓 중고 거래
         </h1>
-      <img class="content5Img" src="img/Img_home_bottom.png">
+      <img class="home_bottomImg" src="img/home_bottom.png">
       
     </div>
     <footer>
       <div class="footer">
-        <span class="company">©codeit - 2024</span>
+        <span class="footer-copyright">©codeit - 2024</span>
+        <div class="footerGroup">
         <ul class="footer-nav">
           <li><a href="/">Privacy Policy</a></li>
           <li><a href="/">FAQ</a></li>
         </ul>
         <ul class="footer-link">
-          <li><a href="https://www.facebook.com" target="_blank"><img src="img/ic_facebook.png" ></a></li>
-          <li><a href="https://x.com" target="_blank"><img src="img/ic_twitter.png" ></a></li>
-          <li><a href="https://www.youtube.com" target="_blank"><img src="img/ic_youtube.png" ></a></li>
-          <li><a href="https://www.instagram.com" target="_blank"><img src="img/ic_instagram.png" ></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><img src="img/footer_facebook.png" ></a></li>
+          <li><a href="https://x.com" target="_blank"><img src="img/footer_twitter.png" ></a></li>
+          <li><a href="https://www.youtube.com" target="_blank"><img src="img/footer_youtube.png" ></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><img src="img/footer_instagram.png" ></a></li>
         </ul>
+      </div>
       </div>
     </footer>
 </body>

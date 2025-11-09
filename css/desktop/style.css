@@ -1,47 +1,4 @@
-/* reset.css */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+
 /* header   */
 header{
   height: 70px;
@@ -72,8 +29,8 @@ header{
     cursor: pointer;
 }
 
-/*    content1     */
-.content1{
+/*    home_top     */
+.home_top{
     height: 540px;
     background-color: #CFE5FF;
     display: flex;
@@ -83,13 +40,14 @@ header{
 
 
 }
-.content1Text{
+.home_topText{
   font-size: 40px;
    font-weight: 700;
    align-self: center;
    margin-top: 160px;
+    line-height: 1.5;
 }
-.content1Button{
+.home_topButton{
     display: flex;  
      border: 1px solid #3692FF;
     border-radius: 50px;
@@ -105,38 +63,51 @@ header{
     margin-top: 30px;
   
 }
-.content1Image{
+.home_topImage{
     width: 746px;
     height: 340px;
 }
-/*    content2      */
+/*    hot_item  */
 
-.content2{
+.hot_item{
     display: flex;
     justify-content: center;
     padding-top: 138px;
    align-items: center;
     
 }
-.content2Img{
+.contentInner{
+    display: flex;
+    align-items: center;
+}
+.hot_itemImg{
     width: 588px;
     height:444px;
 }
-.content2Text{
+.hot_itemText{
     padding-left: 50px;
+     line-height: 1.5;  
 }
-/*     content3      */
-.content3{
+/*    home_search     */
+.home_search{
     display: flex;
      justify-content: center;
       padding-top: 138px;
         align-items: center;
 }
-.content3Img{
+
+.home_searchImg{
      padding-left: 50px;
 }
-/*     content4      */
-.content4{
+.home_searchText{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end; 
+     line-height: 1.5;   
+}
+/*   home_register     */
+.home_register{
 
     display: flex;
      justify-content: center;
@@ -145,41 +116,47 @@ header{
       align-items: center;
 }
 
-.content4Text{
+.home_registerText{
      padding-left: 50px;
-    
+     line-height: 1.5;
 }
 
-/*    content5*/
-.content5{
+/*    home_bottom */
+.home_bottom{
     display: flex;
     background-color: #CFE5FF;
      justify-content: center;
      height:540px ;
      
 }
-.content5Img{
+
+.home_bottomImg{
     height:397px ;
     width: 746px;
     display: flex;
     align-self:flex-end;
 }
-.content5Text{
+.home_bottomText{
     display: flex;
     align-items: center;
     font-size: 40px;
     font-weight: 700;
+     line-height: 1.5;
 }
 /*  footer   */
 footer {
   background: #111827;
   height: 100px;
  
+
 }
 .footer{
     display: flex;
     align-items: center ;
     padding-top: 24px;
+}
+.footerGroup{
+    display: flex;
 }
 .footer-link{
     display: flex;
@@ -188,7 +165,7 @@ footer {
 
 
 }
-.company{
+.footer-copyright{
    margin-left: 250px;
    color: #9CA3AF;
     font-size: 16px;
