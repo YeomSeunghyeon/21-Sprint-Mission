@@ -1,200 +1,186 @@
-
 /* header   */
-header{
+header {
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 200px;
-  background-color: #ffffff;    
-
+  background-color: #ffffff;
 }
-.headerImg{
-    width:153px ;
-    height: 51px;
-    cursor: pointer;
-
+.headerImg {
+  width: 153px;
+  height: 51px;
+  cursor: pointer;
 }
-.headerLogin{
-    display: flex;
-    border: 1px solid #3692FF;
-    border-radius: 10px;
-    width: 128px;
-    height: 48px;
-    background-color: #3692FF;
-    color:white;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    cursor: pointer;
+.headerLogin {
+  display: flex;
+  border: 1px solid #3692ff;
+  border-radius: 10px;
+  width: 128px;
+  height: 48px;
+  background-color: #3692ff;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-/*    home_top     */
-.home_top{
-    height: 540px;
-    background-color: #CFE5FF;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    width: 100%;
-
-
+/* homeTop */
+.homeTop {
+  height: 540px;
+  background-color: #cfe5ff;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
 }
-.home_topText{
+.homeTopText {
   font-size: 40px;
-   font-weight: 700;
-   align-self: center;
-   margin-top: 160px;
-    line-height: 1.5;
+  font-weight: 700;
+  align-self: center;
+  margin-top: 160px;
+  line-height: 1.5;
 }
-.home_topButton{
-    display: flex;  
-     border: 1px solid #3692FF;
-    border-radius: 50px;
-    background-color: #3692FF;
-    color:white;
-    text-decoration: none;
-    cursor: pointer;
-    width: 357px;
-    height: 56px;
-     justify-content: center;
-    align-items: center;  
-    font-size: 20px;
-    margin-top: 30px;
-  
+.homeTopButton {
+  display: flex;
+  border: 1px solid #3692ff;
+  border-radius: 50px;
+  background-color: #3692ff;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  width: 357px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 30px;
 }
-.home_topImage{
-    width: 746px;
-    height: 340px;
-}
-/*    hot_item  */
-
-.hot_item{
-    display: flex;
-    justify-content: center;
-    padding-top: 138px;
-   align-items: center;
-    
-}
-.contentInner{
-    display: flex;
-    align-items: center;
-}
-.hot_itemImg{
-    width: 588px;
-    height:444px;
-}
-.hot_itemText{
-    padding-left: 50px;
-     line-height: 1.5;  
-}
-/*    home_search     */
-.home_search{
-    display: flex;
-     justify-content: center;
-      padding-top: 138px;
-        align-items: center;
+.homeTopImage {
+  width: 746px;
+  height: 340px;
 }
 
-.home_searchImg{
-     padding-left: 50px;
+/* hotItem */
+.hotItem {
+  display: flex;
+  justify-content: center;
+  padding-top: 138px;
+  align-items: center;
 }
-.home_searchText{
-     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: end; 
-     line-height: 1.5;   
+.contentInner {
+  display: flex;
+  align-items: center;
 }
-/*   home_register     */
-.home_register{
-
-    display: flex;
-     justify-content: center;
-      padding-top: 138px;
-      padding-bottom: 138px;
-      align-items: center;
+.hotItemImg {
+  width: 588px;
+  height: 444px;
 }
-
-.home_registerText{
-     padding-left: 50px;
-     line-height: 1.5;
+.hotItemText {
+  padding-left: 50px;
+  line-height: 1.5;
 }
 
-/*    home_bottom */
-.home_bottom{
-    display: flex;
-    background-color: #CFE5FF;
-     justify-content: center;
-     height:540px ;
-     
+/* homeSearch */
+.homeSearch {
+  display: flex;
+  justify-content: center;
+  padding-top: 138px;
+  align-items: center;
+}
+.homeSearchImg {
+  padding-left: 50px;
+}
+.homeSearchText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+  line-height: 1.5;
 }
 
-.home_bottomImg{
-    height:397px ;
-    width: 746px;
-    display: flex;
-    align-self:flex-end;
+/* homeRegister */
+.homeRegister {
+  display: flex;
+  justify-content: center;
+  padding-top: 138px;
+  padding-bottom: 138px;
+  align-items: center;
 }
-.home_bottomText{
-    display: flex;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 700;
-     line-height: 1.5;
+.homeRegisterText {
+  padding-left: 50px;
+  line-height: 1.5;
 }
-/*  footer   */
+
+/* homeBottom */
+.homeBottom {
+  display: flex;
+  background-color: #cfe5ff;
+  justify-content: center;
+  height: 540px;
+}
+.homeBottomImg {
+  height: 397px;
+  width: 746px;
+  display: flex;
+  align-self: flex-end;
+}
+.homeBottomText {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* footer */
 footer {
   background: #111827;
   height: 100px;
- 
+}
+.footer {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+}
+.footerGroup {
+  display: flex;
+}
+.footerLink {
+  display: flex;
+  gap: 24px;
+  margin-left: 250px;
+}
+.footerCopyright {
+  margin-left: 250px;
+  color: #9ca3af;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footerNav {
+  display: flex;
+  gap: 24px;
+  margin-left: 250px;
+}
+.footerNav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
 
+/* span */
+span {
+  color: #3692ff;
 }
-.footer{
-    display: flex;
-    align-items: center ;
-    padding-top: 24px;
+.titleContent {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 10px;
 }
-.footerGroup{
-    display: flex;
-}
-.footer-link{
-    display: flex;
-    gap:24px;
-     margin-left: 250px;
-
-
-}
-.footer-copyright{
-   margin-left: 250px;
-   color: #9CA3AF;
-    font-size: 16px;
-    font-weight: 400;
-;
-}
-.footer-nav{
-    display: flex;
-    gap:24px;
-     margin-left: 250px;
-    
-}
-.footer-nav a{
-     color: #E5E7EB;
-     text-decoration: none;
-     font-size: 16px;
-    font-weight: 400;
-}
-/*  span */
-span{
-    color:#3692FF ;
-}
-.title-content{
- font-size: 40px;
- font-weight: 700;
- padding-top: 10px;
-}
-.description-content{
- font-size: 24px;
- font-weight: 500;
- padding-top: 20px;
+.descriptionContent {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 20px;
 }
